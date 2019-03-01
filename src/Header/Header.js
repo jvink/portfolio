@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import earth from './earth.png';
-import './header.css';
+import './Header.css';
 
 class Header extends Component {
     render() {
