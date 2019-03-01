@@ -38,6 +38,21 @@ html, main {
   }
 }
 
+.button-reversed {
+  border: black dashed 2px;
+  background-color: transparent;
+  color: black;
+  font-family: 'Space Mono', monospace;
+  font-size: 1em;
+  padding: .5em;
+  margin: .5em;
+}
+
+.buttonReversed:hover {
+  border: black 2px outset;
+  cursor: pointer;
+}
+
 button {
   border: #ecf0f1 dashed 2px;
   background-color: transparent;

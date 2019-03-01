@@ -1,0 +1,15 @@
+.projects-wrapper {
+    display: flex;
+}
+
+.wrapper {
+    border: black dashed 2px;
+    background-color: #ecf0f1;
+    padding: 1em;
+    margin: 1em;
+    color: black;
+}
+
+.image {
+    max-width: 240px;
+}
