@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import earth from './earth.png';
 import './Header.css';
 
@@ -6,15 +7,15 @@ class Header extends Component {
     render() {
         return (
             <div className="header">
-                <a className="link-no-style left" href="/">
+                <Link className="link-no-style left" to="/">
                     <img src={earth} className="earth" alt="earth" />
                     <span>Jurian Vink</span>
-                </a>
+                </Link>
                 <div className="right">
                     <ul className="nav-wrapper">
-                        <a className="link-no-style" href="/about"><span className="nav-link">About me</span></a>
-                        <a className="link-no-style" href="/projects"><span className="nav-link">My Projects</span></a>
-                        <a className="link-no-style" href="/contact"><span className="nav-link">Contact</span></a>
+                        <Link className="link-no-style" to="/about"><span className="nav-link">About me</span></Link>
+                        <Link className="link-no-style" to="/projects"><span className="nav-link">My Projects</span></Link>
+                        <Link className="link-no-style" to="/contact"><span className="nav-link">Contact</span></Link>
                     </ul>
                 </div>
             </div>

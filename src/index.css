@@ -9,10 +9,14 @@ body {
   color: #ecf0f1;
 }
 
-html {
+html, main {
   margin: 0;
   padding: 0;
   height: 100%;
+}
+
+.content-wrapper {
+  padding: 120px;
 }
 
 .link-no-style {

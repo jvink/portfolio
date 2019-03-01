@@ -1,12 +1,22 @@
 import React, { Component } from 'react';
+import './Projects.css';
 
 class Projects extends Component {
     render() {
         return (
-            <div>
-                <span>Some projects I worked on</span>
+            <div className="content-wrapper">
+                <span className="title-text">Some projects I worked on</span>
+                <div>
+                    {this.getProjects}
+                </div>
             </div>
         );
+    }
+
+    getProjects() {
+        let projects = [];
+
+        return projects;
     }
 }
 
