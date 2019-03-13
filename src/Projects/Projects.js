@@ -12,11 +12,17 @@ class Projects extends Component {
                 <div className="projects-wrapper">
                     {projects.map((project) => {
                         return (
-                            <div className="wrapper">
-                                <img className="image" src={project.coverImage}/>
-                                <b>{project.name}</b>
+                            <div className="project-wrapper">
+                                <span className="date">{project.beginDate}</span>
+                                <div className="image-wrapper">
+                                    <img className="image" src={project.coverImage}/>
+                                </div>
+                                <br/>
+                                <h3>{project.name}</h3>
                                 <p>{project.shortDescription}</p>
-                                <button className="button-reversed">Read more</button>
+                                <div className="actions">
+                                    <button>Read more</button>
+                                </div>
                             </div>
                         );
                     })}
