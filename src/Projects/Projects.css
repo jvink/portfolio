@@ -1,6 +1,7 @@
 .projects-wrapper {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .project-wrapper {
@@ -15,6 +16,24 @@
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 600px) {
+    .project-wrapper {
+        width: 100%;
+    }
+}
+
+.title-text {
+    position: absolute;
+    left: 20%;
+    top: 3.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-text {
+      display: none;
+    }
+  }
 
 .image {
     max-height: 100%;

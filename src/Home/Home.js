@@ -18,20 +18,20 @@ class App extends Component {
 
             <div className="button-container">
               <Link to="/about" id="button-style">Get to know more</Link>
-              <button>Check out my projects</button>
+              <Link to="/projects" id="button-style">Check out my projects</Link>
             </div>
           </div>
           <div className="content">
             <div id="circle-orbit-container">
               <img src={planet} className="planet" alt="planet" />
               <div id="outer-orbit">
-                <div class="outer-orbit-cirlces"></div>
+                <div className="outer-orbit-cirlces"></div>
               </div>
               <div id="middle-orbit">
-                <div class="middle-orbit-cirlces"></div>
+                <div className="middle-orbit-cirlces"></div>
               </div>
               <div id="inner-orbit">
-                <div class="inner-orbit-cirlces"></div>
+                <div className="inner-orbit-cirlces"></div>
                 <img src={spaceship} className="inner-orbit-cirlces" alt="satellite" style={{width: '2em', height: 'auto'}}/>
               </div>
             </div>

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "FineAid Web",
+        "shortDescription": "Voor dit project moesten wij een website en een app maken voor FineAid.",
+        "beginDate": "08-20-2018",
+        "productOwner": "FineAid",
+        "longDescription": "Voor dit project moesten wij een website en een app maken voor FineAid. Voor dit project moesten wij een website en een app maken voor FineAid.",
+        "coverImage": "https://drive.google.com/uc?export=view&id=1HlrMGnMaASIKurfrUVJSgiK6p4TG-ifV"
+    },
+    {
+        "id": 2,
+        "name": "StudentShop - Project C",
+        "shortDescription": "Project C was a school project where we had to make a webshop using a web framework. We used ReactJS for the front-end and .NET for the back-end.",
+        "beginDate": "09-12-2018",
+        "productOwner": "Hogeschool Rotterdam",
+        "longDescription": "Bla bla",
+        "coverImage": "https://drive.google.com/uc?export=view&id=1ByWhuOSWDYZRujrQX8ec5doqLRAbtb6N"
+    },
+    {
+        "id": 3,
+        "name": "Dierenambulance Gooi en Vechtstreek",
+        "shortDescription": "Voor dit project moesten wij een website en een app maken voor de Dierambulance van regio Gooi en Vechtstreek.",
+        "beginDate": "08-20-2018",
+        "productOwner": "Dierenambulance Gooi en Vechtstreek",
+        "longDescription": "Voor dit project moesten wij een website en een app maken voor de Dierambulance van regio Gooi en Vechtstreek. Voor dit project moesten wij een website en een app maken voor de Dierambulance van regio Gooi en Vechtstreek. Voor dit project moesten wij een website en een app maken voor de Dierambulance van regio Gooi en Vechtstreek.",
+        "coverImage": "https://www.dierenambulance-gooienvechtstreek.nl/uploads/1/1/9/1/119192036/published/img-20180427-101816-773.jpg?1537038783"
+    }
+]

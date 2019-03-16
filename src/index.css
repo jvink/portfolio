@@ -16,7 +16,14 @@ html, main {
 }
 
 .content-wrapper {
-  padding: 120px;
+  padding: 5em;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-wrapper {
+    padding: 0;
+    padding-top: 5em;
+  }
 }
 
 .link-no-style {
