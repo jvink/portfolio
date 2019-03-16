@@ -1,0 +1,16 @@
+.content-wrapper {
+    display: flex;
+}
+
+.content-right {
+    text-align: center;
+}
+
+.skill {   
+    animation: skill-animation 2s ease-out;
+}
+  
+@keyframes skill-animation { 
+    0%  { width:0px;}
+    100%{ width:70%;}
+}

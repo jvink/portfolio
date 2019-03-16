@@ -63,7 +63,24 @@ button {
   margin: .5em;
 }
 
+#button-style {
+  border: #ecf0f1 dashed 2px;
+  background-color: transparent;
+  text-decoration: none;
+  color: #ecf0f1;
+  font-family: 'Space Mono', monospace;
+  font-size: 1em;
+  padding: .5em;
+  margin: .5em;
+
+}
+
 button:hover {
+  border: #ecf0f1 2px outset;
+  cursor: pointer;
+}
+
+#button-style:hover {
   border: #ecf0f1 2px outset;
   cursor: pointer;
 }

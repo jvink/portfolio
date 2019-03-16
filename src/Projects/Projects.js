@@ -15,7 +15,7 @@ class Projects extends Component {
                             <div className="project-wrapper">
                                 <span className="date">{project.beginDate}</span>
                                 <div className="image-wrapper">
-                                    <img className="image" src={project.coverImage}/>
+                                    <img className="image" src={project.coverImage} alt="prjImg"/>
                                 </div>
                                 <br/>
                                 <h3>{project.name}</h3>

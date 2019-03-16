@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../Header/Header';
 import planet from './planet.png';
 import spaceship from './spaceship.png';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 class App extends Component {
@@ -16,7 +17,7 @@ class App extends Component {
             and a passion for making valuable, (re)usable and beautiful software!</span>
 
             <div className="button-container">
-              <button>Get to know me more</button>
+              <Link to="/about" id="button-style">Get to know more</Link>
               <button>Check out my projects</button>
             </div>
           </div>
