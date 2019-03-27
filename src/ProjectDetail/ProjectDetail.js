@@ -23,6 +23,9 @@ class ProjectDetail extends Component {
                         <div className="project-detail-content">
                             <h3>Product Owner: <i>{currentProject.productOwner}</i></h3>
                             <p>{currentProject.longDescription}</p>
+                            {currentProject.screenshots.map((screenshot, index) => {
+                                return <img src={screenshot} alt={index} className="project-detail-content-screenshot"></img>
+                            })}
                         </div>
                     </div>
                 </div>

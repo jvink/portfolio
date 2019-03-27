@@ -40,3 +40,7 @@
 .project-detail-content {
     padding: 1em;
 }
+
+.project-detail-content-screenshot {
+    max-width: 100%;
+}

@@ -5,17 +5,31 @@
         "shortDescription": "Voor dit project moesten wij een website en een app maken voor FineAid.",
         "beginDate": "08-20-2018",
         "productOwner": "FineAid",
-        "longDescription": "Voor dit project moesten wij een website en een app maken voor FineAid. Voor dit project moesten wij een website en een app maken voor FineAid.",
-        "coverImage": "https://drive.google.com/uc?export=view&id=1HlrMGnMaASIKurfrUVJSgiK6p4TG-ifV"
+        "longDescription": "Voor dit project moesten wij een website en een app maken voor FineAid. Dit is een goede klant van GDK Software. Ze vertrouwden ons toe om hun huidige portaal te vertalen naar een nieuwe versie, die bovendien ook als app gestart kan worden op de mobiele telefoon. FineAid is een bedrijf dat zich bezig houdt met financiën van mensen die in de schuld zitten. Bewindvoerders kunnen dossiers van deze mensen inzien en kunnen de mensen sturen om een stabielere financiële toekomst tegemoet te gaan.",
+        "coverImage": "https://drive.google.com/uc?export=view&id=1HlrMGnMaASIKurfrUVJSgiK6p4TG-ifV",
+        "screenshots": [
+            "https://drive.google.com/uc?export=view&id=1dxHmHdL-gIlilj_TCcA-H1O4D4wEz8wQ",
+            "https://drive.google.com/uc?export=view&id=1iZ5TThJbnWXrsvrXDrEP95qvnRMO8pJA",
+            "https://drive.google.com/uc?export=view&id=11CojlSVsiFHHTFcUA9GgBd0uIyfJzgzq"
+        ]
     },
     {
         "id": 2,
         "name": "StudentShop - Project C",
-        "shortDescription": "Project C was a school project where we had to make a webshop using a web framework. We used ReactJS for the front-end and .NET for the back-end.",
+        "shortDescription": "Project C was een schoolproject. We moesten een webshop maken door gebruik te maken van een front-end framework. We hebben ReactJS gebruikt voor de front-end en .NET voor de back-end.",
         "beginDate": "09-12-2018",
         "productOwner": "Hogeschool Rotterdam",
-        "longDescription": "Bla bla",
-        "coverImage": "https://drive.google.com/uc?export=view&id=1ByWhuOSWDYZRujrQX8ec5doqLRAbtb6N"
+        "longDescription": "Tijdens dit project heb ik veel ervaring opgedaan voor React en .NET. We kregen een iets minder dan een half schooljaar om het product te voltooien. Het idee was om een studenten webshop te maken, waarmee klanten Het project ging me goed af en we hebben er dan ook een 8.1 voor gekregen.",
+        "coverImage": "https://drive.google.com/uc?export=view&id=1ByWhuOSWDYZRujrQX8ec5doqLRAbtb6N",
+        "screenshots": [
+            "https://drive.google.com/uc?export=view&id=1Sqa50JX_jf1ce1bT-9nMKB2XZepa_mo5",
+            "https://drive.google.com/uc?export=view&id=11hSst7oOYLG4NnRBuJEI3ebrB1YVDf5d",
+            "https://drive.google.com/uc?export=view&id=1UGKkmw0qYyAklkU-n2U8inbfdLT5sl1n",
+            "https://drive.google.com/uc?export=view&id=1soQ6r_NCCHi6T1m2BzlL_XHYoJRYjmoZ",
+            "https://drive.google.com/uc?export=view&id=1uOwEZPVlTwMijNJ51AyIBWyEeX4qcNJY",
+            "https://drive.google.com/uc?export=view&id=1ZXPTCgacZQjfcQ1F0l26T35CRhlbDbPd",
+            "https://drive.google.com/uc?export=view&id=1tY4fKkzPSsqU6dAvphjz4GC2DepxoH-3"
+        ]
     },
     {
         "id": 3,
@@ -24,6 +38,13 @@
         "beginDate": "08-20-2018",
         "productOwner": "Dierenambulance Gooi en Vechtstreek",
         "longDescription": "Voor dit project moesten wij een website en een app maken voor de Dierambulance van regio Gooi en Vechtstreek. Voor dit project moesten wij een website en een app maken voor de Dierambulance van regio Gooi en Vechtstreek. Voor dit project moesten wij een website en een app maken voor de Dierambulance van regio Gooi en Vechtstreek.",
-        "coverImage": "https://www.dierenambulance-gooienvechtstreek.nl/uploads/1/1/9/1/119192036/published/img-20180427-101816-773.jpg?1537038783"
+        "coverImage": "https://www.dierenambulance-gooienvechtstreek.nl/uploads/1/1/9/1/119192036/published/img-20180427-101816-773.jpg?1537038783",
+        "screenshots": [
+            "https://drive.google.com/uc?export=view&id=1W26NMtI3LtZ_bUm1C3CapwviAZiLHH-w",
+            "https://drive.google.com/uc?export=view&id=1bRyniYiKWw-f_X4oSz_W9HMkp-hqbrWG",
+            "https://drive.google.com/uc?export=view&id=1NgBiqvinrbcMmx0V7z7hsj39_M3Fnaqy",
+            "https://drive.google.com/uc?export=view&id=1frzJOS7URTMPYCVJOyL1YPMJnPfsDXBL",
+            "https://drive.google.com/uc?export=view&id=1x_g3fh4bSZUS2O23rR-1p18XgVE6EUyv"
+        ]
     }
 ]
