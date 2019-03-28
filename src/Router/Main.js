@@ -7,15 +7,13 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 
 const Main = () => (
-    <main>
-        <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/projects/:projectid" component={ProjectDetail} />
-            <Route exact path="/contact" component={Contact} />
-        </Switch>
-    </main>
+    <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/projects/:projectid" component={ProjectDetail} />
+        <Route exact path="/contact" component={Contact} />
+    </Switch>
 );
 
 export default Main;
