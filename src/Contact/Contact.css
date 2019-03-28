@@ -1,0 +1,32 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.contact-form-input {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#feedback {
+    color: #c0392b;
+}
+
+.icon-text {
+    margin: .5em;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    margin-right: .5em;
+}
+
+.social-media {
+    display: flex;
+    margin: 2em;
+}

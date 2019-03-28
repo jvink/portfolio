@@ -67,7 +67,6 @@ button {
   font-family: 'Space Mono', monospace;
   font-size: 1em;
   padding: .5em;
-  margin: .5em;
 }
 
 #button-style {
@@ -79,7 +78,6 @@ button {
   font-size: 1em;
   padding: .5em;
   margin: .5em;
-
 }
 
 button:hover {
@@ -94,4 +92,12 @@ button:hover {
 
 button:focus {
   outline: 0;
+}
+
+input {
+  border: #ecf0f1 dashed 2px;
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 1em;
+  padding: .5em;
 }

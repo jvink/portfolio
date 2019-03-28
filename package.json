@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "formik": "^1.5.1",
+    "mdi-react": "^5.3.0",
     "moment": "^2.24.0",
     "npm": "^6.8.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "sendemail": "^3.4.0",
+    "yup": "^0.27.0"
   },
   "scripts": {
     "start": "react-scripts start",
