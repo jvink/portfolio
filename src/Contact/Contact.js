@@ -3,6 +3,7 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 import Instagram from 'mdi-react/InstagramIcon';
 import LinkedIn from 'mdi-react/LinkedinBoxIcon';
+import GitHub from 'mdi-react/GithubCircleIcon';
 import './Contact.css';
 
 class About extends React.Component {
@@ -18,12 +19,12 @@ class About extends React.Component {
                     }}
                     validationSchema={Yup.object().shape({
                         name: Yup.string()
-                        .required('Dit veld is vereist'),
+                            .required('Dit veld is vereist'),
                         email: Yup.string()
-                        .email()
-                        .required('Dit veld is vereist'),
+                            .email()
+                            .required('Dit veld is vereist'),
                         message: Yup.string()
-                        .required('Dit veld is vereist'),
+                            .required('Dit veld is vereist'),
                     })}
                     render={props => (
                         <form onSubmit={props.handleSubmit} className="contact-form">
@@ -35,7 +36,7 @@ class About extends React.Component {
                                     onBlur={props.handleBlur}
                                     value={props.values.name}
                                     name="name"
-                                    />
+                                />
                                 {props.errors.name && <div id="feedback">{props.errors.name}</div>}
                             </div>
                             <div className="contact-form-input">
@@ -63,10 +64,11 @@ class About extends React.Component {
                             <button type="submit">Verstuur</button>
                         </form>
                     )}
-                    />
+                />
                 <div className="social-media">
-                    <a className="icon-text" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jurianvink/"><Instagram className="icon"/><span className="text">jurianvink</span></a>
-                    <a className="icon-text" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jurian-vink-282465141/"><LinkedIn className="icon"/><span>Jurian Vink</span></a>
+                    <a className="icon-text" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jurianvink/"><Instagram className="icon" /><span className="text">jurianvink</span></a>
+                    <a className="icon-text" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jurian-vink-282465141/"><LinkedIn className="icon" /><span>Jurian Vink</span></a>
+                    <a className="icon-text" target="_blank" rel="noopener noreferrer" href="https://github.com/jvink/"><GitHub className="icon" /><span>jvink</span></a>
                 </div>
             </div>
         );
