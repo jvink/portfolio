@@ -94,6 +94,19 @@ button:focus {
   outline: 0;
 }
 
+.clearButton {
+  border: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.clearButton:hover {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
 input {
   border: #ecf0f1 dashed 2px;
   text-decoration: none;

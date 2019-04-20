@@ -5,6 +5,7 @@ import Projects from '../Projects/Projects';
 import ProjectDetail from '../ProjectDetail/ProjectDetail';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
+import CurriculumVitae from '../CurriculumVitae/CurriculumVitae';
 
 const Main = () => (
     <Switch>
@@ -13,6 +14,7 @@ const Main = () => (
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/projects/:projectid" component={ProjectDetail} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/cv" component={CurriculumVitae} />
     </Switch>
 );
 

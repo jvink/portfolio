@@ -1,9 +1,11 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import Instagram from 'mdi-react/InstagramIcon';
 import LinkedIn from 'mdi-react/LinkedinBoxIcon';
 import GitHub from 'mdi-react/GithubCircleIcon';
+import Portfolio from 'mdi-react/AccountCardDetailsIcon';
 import './Contact.css';
 
 class About extends React.Component {
@@ -69,10 +71,11 @@ class About extends React.Component {
                     <a className="icon-text" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jurianvink/"><Instagram className="icon" /><span className="text">jurianvink</span></a>
                     <a className="icon-text" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jurian-vink-282465141/"><LinkedIn className="icon" /><span>Jurian Vink</span></a>
                     <a className="icon-text" target="_blank" rel="noopener noreferrer" href="https://github.com/jvink/"><GitHub className="icon" /><span>jvink</span></a>
+                    <button className="clearButton" target="_blank" rel="noopener noreferrer" href="" onClick={() => this.props.history.push('/cv')}><Portfolio className="icon" /><span>Portfolio</span></button>
                 </div>
             </div>
         );
     }
 }
 
-export default About;
+export default withRouter(About);
