@@ -5,8 +5,6 @@ body {
   font-family: 'Space Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #031924;
-  color: #ecf0f1;
 }
 
 html, main {
@@ -70,14 +68,13 @@ button {
 }
 
 #button-style {
-  border: #ecf0f1 dashed 2px;
+  border: #ecf0f1 1px outset;
   background-color: transparent;
   text-decoration: none;
   color: #ecf0f1;
-  font-family: 'Space Mono', monospace;
-  font-size: 1em;
-  padding: .5em;
-  margin: .5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  padding: 1em 2em 1em 2em;
 }
 
 button:hover {
@@ -86,7 +83,7 @@ button:hover {
 }
 
 #button-style:hover {
-  border: #ecf0f1 2px outset;
+  border: #ecf0f1 dashed 1px;
   cursor: pointer;
 }
 
