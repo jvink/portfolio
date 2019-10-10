@@ -1,4 +1,4 @@
-.about-wrapper {
+#about {
   display: flex;
   height: 100%;
 }
@@ -8,6 +8,12 @@
   justify-content: center;
   align-items: center;
   flex: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .content-left {
+    display: none;
+  }
 }
 
 .content-right {
@@ -25,10 +31,29 @@
 }
 
 .about-me {
-  flex: 3;
+  flex: 4;
   font-family: "Montserrat", sans-serif;
 }
 
+@media only screen and (max-width: 1000px) {
+  .about-me {
+    margin: 2em;
+  }
+}
+
+
 .about-me-text {
-    line-height: 350%;
+  line-height: 350%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-me-text {
+    line-height: 200%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .outer-column {
+    flex: 1
+  }
 }

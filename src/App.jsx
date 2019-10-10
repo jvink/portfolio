@@ -1,16 +1,19 @@
 import React from "react";
-import { HashRouter } from "react-router-dom";
 import Header from "./Header/Header.jsx";
-import Main from "./Router/Main";
+import Home from "./Home/Home.jsx";
+import About from "./About/About.jsx";
+import Projects from "./Projects/Projects.jsx";
+import Contact from "./Contact/Contact.jsx";
 
 const App = () => {
   return (
-    <HashRouter>
-      <div id="root">
-        <Header />
-        <Main />
-      </div>
-    </HashRouter>
+    <div id="root">
+      <Header />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+    </div>
   );
 };
 

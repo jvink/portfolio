@@ -1,25 +1,22 @@
-.contact-form {
+#contact {
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    width: 25%;
-}
-
-.contact-form-input {
-    margin-bottom: 1em;
-    display: flex;
-    flex-direction: column;
-}
-
-#feedback {
-    color: #c0392b;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-text {
-    margin: .5em;
     display: flex;
-    justify-content: center;
+    margin: 1.5em;
+    color: #000;
     text-decoration: none;
-    color: white;
+}
+
+.icon-text:hover {
+    display: flex;
+    margin: 1.5em;
+    color: #000;
+    text-decoration: underline;
 }
 
 .icon {
@@ -28,5 +25,4 @@
 
 .social-media {
     display: flex;
-    margin: 2em;
 }

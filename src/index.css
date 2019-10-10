@@ -1,8 +1,8 @@
 body {
   margin: 0 !important;
   padding: 0 !important;
-  height: 100%;
-  font-family: 'Space Mono', monospace;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,27 +10,11 @@ body {
 html, main {
   margin: 0;
   padding: 0;
-  height: 100%;
-}
-
-.content-wrapper {
-  padding: 5em;
-}
-
-@media only screen and (max-width: 600px) {
-  .content-wrapper {
-    padding: 0;
-    padding-top: 5em;
-  }
-}
-
-.link-no-style {
-  text-decoration: none;
-  color: #ecf0f1;
+  height: 100vh;
 }
 
 #root {
-  height: 100%;
+  height: 100vh;
 }
 
 @keyframes spin-right {
@@ -43,71 +27,21 @@ html, main {
   }
 }
 
-.button-reversed {
-  border: black dashed 2px;
-  background-color: transparent;
-  color: black;
-  font-family: 'Space Mono', monospace;
-  font-size: 1em;
-  padding: .5em;
-  margin: .5em;
-}
-
-.buttonReversed:hover {
-  border: black 2px outset;
-  cursor: pointer;
-}
-
-button {
-  border: #ecf0f1 dashed 2px;
-  background-color: transparent;
-  color: #ecf0f1;
-  font-family: 'Space Mono', monospace;
-  font-size: 1em;
-  padding: .5em;
-}
-
 #button-style {
-  border: #ecf0f1 1px outset;
-  background-color: transparent;
+  border-radius: 100px;
+  background-color: #3498db;
+  color: #ffffff;
   text-decoration: none;
-  color: #ecf0f1;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
   padding: 1em 2em 1em 2em;
 }
 
 button:hover {
-  border: #ecf0f1 2px outset;
   cursor: pointer;
 }
 
 #button-style:hover {
-  border: #ecf0f1 dashed 1px;
+  background-color: #2980b9;
   cursor: pointer;
-}
-
-button:focus {
-  outline: 0;
-}
-
-.clearButton {
-  border: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.clearButton:hover {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-input {
-  border: #ecf0f1 dashed 2px;
-  text-decoration: none;
-  font-family: 'Space Mono', monospace;
-  font-size: 1em;
-  padding: .5em;
 }

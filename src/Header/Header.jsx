@@ -11,6 +11,7 @@ const Header = () => {
         spy={true}
         smooth={true}
         duration={500}
+        style={{ display: "flex", alignItems: "center" }}
       >
         <span className="nav-item-home">
           <img src="images/earth.png" className="earth" alt="earth" />
@@ -27,7 +28,7 @@ const Header = () => {
               smooth={true}
               duration={1000}
             >
-              About me
+              About
             </Link>
           </li>
           <li className="nav-item">
@@ -38,7 +39,7 @@ const Header = () => {
               smooth={true}
               duration={1000}
             >
-              My Projects
+              Projects
             </Link>
           </li>
           <li className="nav-item">

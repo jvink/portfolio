@@ -26,7 +26,7 @@ const App = () => {
             >
               <span id="button-style">ABOUT</span>
             </Link>
-            <Link to="about" spy={true} smooth={true} duration={1000}>
+            <Link to="contact" spy={true} smooth={true} duration={1000}>
               <span id="button-style">CONTACT</span>
             </Link>
           </div>
@@ -46,7 +46,7 @@ const App = () => {
                 src="images/spaceship.png"
                 className="inner-orbit-cirlces"
                 alt="satellite"
-                style={{ width: "2em", height: "auto" }}
+                style={{ width: "1.5em", height: "auto" }}
               />
             </div>
           </div>

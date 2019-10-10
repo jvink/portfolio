@@ -22,6 +22,11 @@
   margin-right: 3em;
 }
 
+.nav-wrapper {
+  display: flex;
+  
+}
+
 .nav .nav-content {
   margin: 0 auto;
   display: flex;
@@ -33,7 +38,6 @@
 .nav-item {
   display: inline;
   margin-left: 2rem;
-  color: #fff;
 }
 
 .nav-item:hover {
@@ -43,7 +47,6 @@
 
 .nav-item-home {
   display: flex;
-  color: #fff;
 }
 
 .nav-item-home:hover, .nav-item-home-text:hover {
